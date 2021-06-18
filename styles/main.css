@@ -1,0 +1,92 @@
+.imagen-logo {
+    max-width: 70px;
+}
+
+.main-index img {
+    object-fit: contain;
+    max-width: max-content;
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: inherit;
+}
+
+.accordion-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.accordion-button {
+    font-size: 1rem;
+}
+.accordion-button:not(.collapsed) .show-more{
+display:none;
+}
+
+.accordion-button.collapsed .show-less{
+    display:none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+main .container {
+    margin-left: 0;
+}
+
+.legend,
+span label {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+#state-select {
+    height: fit-content;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: .38em;
+    float: none;
+    margin-left: 0;
+}
+
+nav,footer{
+    border-radius: .25rem;
+    background-color:#134974;
+}
+
+.nav-link{
+    color: #e9ecef;
+}
+
+.nav-link:focus, .nav-link:hover{
+    color:white;
+}
+
+header, th{
+    color: #134974; 
+}
+
+.email-icon{
+    height: 1.5em;
+}
+
+.first-row{
+    margin-bottom: 3em;
+}
+
+footer{
+    color:#e9ecef;
+    background-color:#134974;
+}
+
+.dropdown-menu{
+    border: 1px solid #134974;
+}
+
+.statistic-tables {
+--bs-gutter-x: 4rem;
+}
